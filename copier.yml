@@ -1,0 +1,11 @@
+_subdirectory: template
+_templates_suffix: .jinja
+
+
+project_name:
+  type: str
+  help: Project name
+
+project_description:
+  type: str
+  help: Project description
