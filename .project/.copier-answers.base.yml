@@ -1,0 +1,12 @@
+# Changes here will be overwritten by Copier
+_commit: a4b434b
+_src_path: https://github.com/worldworm/copier-base.git
+copyright_year_start: 2023
+copyright_year_today: 2023
+github_repository_name: copier-poetry
+github_repository_namespace: worldworm
+github_username: worldworm
+project_description: Copier template for poetry projects.
+project_emoji: 📋
+project_name: copier-poetry
+

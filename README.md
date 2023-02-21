@@ -1,17 +1,23 @@
-# Copier Poetry
-
-[Copier](https://github.com/copier-org/copier) template
-for Python projects managed by [Poetry](https://github.com/python-poetry/poetry).
+<h1 align="center">📋 copier-poetry</h1>
+<p align="center">
+  <i><a href="https://github.com/copier-org/copier">Copier</a> template for poetry projects.</i>
+</p>
 
 ## Requirements
 ```bash
 pip install copier
 ```
 
-## Quick setup and usage
+## Usage
 
 Make sure the requirements are met, then:
 
 ```bash
-copier "https://github.com/worldworm/copier-poetry.git" /path/to/your/new/project
+copier "https://github.com/worldworm/copier-poetry.git" /new/project/path
 ```
+
+---
+<p align="center">
+  <i>© <a href="https://github.com/worldworm">worldworm</a> 2023</i><br>
+  <i>Licensed under <a href="https://github.com/worldworm/copier-poetry/blob/main/LICENSE">MIT</a></i><br>
+</p>
