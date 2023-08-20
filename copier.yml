@@ -43,16 +43,6 @@ repository_url:
   help: Repository URL
   default: "https://{{ repository_host if repository_provider == 'GitLab' else 'github.com' }}/{{ repository_username }}/{{ repository_name }}"
 
-package_distribution_name:
-  type: str
-  help: Package distribution name (for `pip install NAME`)
-  default: "{{ project_name|lower|replace('_', '-')|replace(' ', '-') }}"
-
-package_import_name:
-  type: str
-  help: Package import name (for `import NAME` in Python code)
-  default: "{{ project_name|lower|replace('-', '_')|replace(' ', '_') }}"
-
 copyright_license:
   type: str
   help: Project license
@@ -65,3 +55,15 @@ use_docker:
   type: bool
   help: Use Docker?
   default: true
+
+
+package_distribution_name:
+  type: str
+  help: Package distribution name (for `pip install NAME`)
+  default: "{{ project_name|lower|replace('_', '-')|replace(' ', '-') }}"
+
+package_import_name:
+  type: str
+  help: Package import name (for `import NAME` in Python code)
+  default: "{{ project_name|lower|replace('-', '_')|replace(' ', '_') }}"
+

@@ -1,13 +1,14 @@
 {
-    "python.linting.pylintEnabled": true,
-    "pylint.args": [
-        "--rcfile=.project/.pylintrc"
-    ],
-    "python.linting.enabled": true,
     "editor.formatOnSave": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.insertSpaces": true,
+    "pylint.args": [
+        "--rcfile=.pylintrc"
+    ],
     "[python]": {
+        "editor.tabSize": 4,
         "editor.defaultFormatter": "ms-python.autopep8",
-        "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
         }
