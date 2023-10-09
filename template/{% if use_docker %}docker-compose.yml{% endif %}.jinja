@@ -6,3 +6,6 @@ services:
     build: .
     container_name: {{ project_name }}
     restart: unless-stopped
+    {% if use_dotenv -%}
+    env_file: .env
+    {% endif -%}
